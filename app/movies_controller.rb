@@ -49,7 +49,7 @@ def can_find_by_multiple_attributes
   # title == "Title"
   # release_date == 2000
   # director == "Me"
-  Movie.where(title: "Title").where(release_date: 2000).where(director: "Me")
+  Movie.where(title: "Title").where(release_date: 2000).where(director: "Me").all
 end
 
 def can_find_using_where_clause_and_be_sorted
